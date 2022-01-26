@@ -1,0 +1,67 @@
+/* --------------all common css start--------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+#card{
+    background: cornflowerblue;
+    padding: 100px 0;
+}
+.autoplay ul {
+	text-align: center;
+	margin-top: 26px;
+}
+.autoplay ul li{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+.autoplay ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.autoplay ul .slick-active::after {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	left: 2px;
+	bottom: 3px;
+	border-radius: 50%;
+}
+.pre {
+	position: relative;
+	left: -120px;
+	top: 231px;
+    background: #000;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next {
+	position: absolute;
+	right: -120px;
+	top: 231px;
+    background: #000;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------all common css end----------------- */
